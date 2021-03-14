@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(../fonts/Audiowide-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4b4b4b;
+    font-family: Audiowide;
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling of the main contents */
+
+h1 {
+    font-family: Audiowide;
+    color: white;
+    font-size: 6em;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Audiowide;
+    font-size: 8em;
+    margin-top: 100px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-family: Audiowide;
+    color: white;
+    background-color: black;
+    border-style: none;
+    margin-left: 500px;
+}
+
+img {
+    position: absolute;
+    margin-top: 400px;
+    animation: 1000ms pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        top: 20px;
+    }
+    100% {
+        top: 5px;
+    }
+}
+
+/* media queries styling */
+
+@media only screen and (max-width: 600px){
+
+    h1 {
+        font-size: 2.5em;
+        margin-left: 25px;
+    }
+
+    div {
+        font-size: 3.3em;
+        margin-left: 75px;
+        flex-direction: column;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        font-family: Audiowide;
+        font-size: 1.5em;
+        color: white;
+        background-color: black;
+        border-style: none;
+        margin-top: 50px;
+        margin-left: 125px;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin-left: 125px;
+    }
+
+}
+
+@media only screen and (min-width: 750px){
+
+    h1 {
+        font-size: 3.3em;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+
+    div {
+        font-size: 4em;
+        margin-left: 225px;
+    }
+
+    button {
+        width: 300px;
+        height: 75px;
+        font-family: Audiowide;
+        font-size: 2em;
+        color: white;
+        background-color: black;
+        border-style: none;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    img {
+        width: 25%;
+        height: 25%;
+        margin-top: 500px;
+        margin-left: 300px;
+    }
+
+
+}
+
+@media only screen and (min-width: 950px){
+
+    h1 {
+        font-size: 4em;
+        margin-left: 200px;
+    }
+
+    div {
+        font-size: 6em;
+        margin-left: 300px;
+        flex-direction: column;
+    }
+
+    button {
+        width: 400px;
+        height: 100px;
+        font-family: Audiowide;
+        font-size: 2.5em;
+        color: white;
+        background-color: black;
+        border-style: none;
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+
+    img {
+        width: 25%;
+        height: 25%;
+        margin-top: 600px;
+        margin-left: 450px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1180px){
+
+    h1 {
+        font-size: 5em;
+        margin-left: 500px;
+    }
+
+    div {
+        font-size: 6em;
+        margin-left: 650px;
+        flex-direction: column;
+    }
+
+    button {
+        width: 400px;
+        height: 100px;
+        font-family: Audiowide;
+        font-size: 2.5em;
+        color: white;
+        background-color: black;
+        border-style: none;
+        margin-top: 20px;
+        margin-left: 725px;
+    }
+
+    img {
+        width: 25%;
+        height: 25%;
+        margin-top: 450px;
+        margin-left: 150px;
+    }
+
+}
